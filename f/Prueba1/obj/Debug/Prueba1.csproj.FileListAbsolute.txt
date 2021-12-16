@@ -1,0 +1,15 @@
+C:\Users\Camila\source\repos\Prueba1\Prueba1\bin\Debug\Prueba1.exe.config
+C:\Users\Camila\source\repos\Prueba1\Prueba1\bin\Debug\Prueba1.exe
+C:\Users\Camila\source\repos\Prueba1\Prueba1\bin\Debug\Prueba1.pdb
+C:\Users\Camila\source\repos\Prueba1\Prueba1\bin\Debug\Interop.WMPLib.dll
+C:\Users\Camila\source\repos\Prueba1\Prueba1\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\Camila\source\repos\Prueba1\Prueba1\obj\Debug\Prueba1.csproj.AssemblyReference.cache
+C:\Users\Camila\source\repos\Prueba1\Prueba1\obj\Debug\Interop.WMPLib.dll
+C:\Users\Camila\source\repos\Prueba1\Prueba1\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\Camila\source\repos\Prueba1\Prueba1\obj\Debug\Prueba1.csproj.ResolveComReference.cache
+C:\Users\Camila\source\repos\Prueba1\Prueba1\obj\Debug\Prueba1.Form1.resources
+C:\Users\Camila\source\repos\Prueba1\Prueba1\obj\Debug\Prueba1.Properties.Resources.resources
+C:\Users\Camila\source\repos\Prueba1\Prueba1\obj\Debug\Prueba1.csproj.GenerateResource.cache
+C:\Users\Camila\source\repos\Prueba1\Prueba1\obj\Debug\Prueba1.csproj.CoreCompileInputs.cache
+C:\Users\Camila\source\repos\Prueba1\Prueba1\obj\Debug\Prueba1.exe
+C:\Users\Camila\source\repos\Prueba1\Prueba1\obj\Debug\Prueba1.pdb
