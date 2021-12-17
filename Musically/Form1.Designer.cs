@@ -60,7 +60,7 @@
             this.r.Location = new System.Drawing.Point(12, 169);
             this.r.Name = "r";
             this.r.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("r.OcxState")));
-            this.r.Size = new System.Drawing.Size(290, 50);
+            this.r.Size = new System.Drawing.Size(39, 20);
             this.r.TabIndex = 4;
             this.r.PlayStateChange += new AxWMPLib._WMPOCXEvents_PlayStateChangeEventHandler(this.r_PlayStateChange);
             this.r.Enter += new System.EventHandler(this.r_Enter);
@@ -147,6 +147,7 @@
             this.mTrackVolumen.TrackLineHeight = 3;
             this.mTrackVolumen.TrackLineSelectedColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(0)))), ((int)(((byte)(35)))));
             this.mTrackVolumen.Value = 0;
+            this.mTrackVolumen.ValueChanged += new XComponent.SliderBar.ValueChangedHandler(this.mTrackVolumen_ValueChanged);
             // 
             // lblCancion
             // 
@@ -169,7 +170,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(315, 526);
+            this.ClientSize = new System.Drawing.Size(318, 523);
             this.Controls.Add(this.lblCancion);
             this.Controls.Add(this.mTrackVolumen);
             this.Controls.Add(this.mTrackPos);

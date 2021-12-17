@@ -90,5 +90,10 @@ namespace Musically
         {
             ActualizarDatos();
         }
+
+        private void mTrackVolumen_ValueChanged(object sender, decimal value)
+        {
+            r.settings.volume = mTrackVolumen.Value;
+        }
     }
 }
