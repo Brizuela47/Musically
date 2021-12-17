@@ -58,6 +58,37 @@ namespace Musically
         private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
             r.URL = Rutas[listBox1.SelectedIndex];
+            lblCancion.Text = Archivos[listBox1.SelectedIndex];
+        }
+
+        public void ActualizarDatos()
+        {
+            if (r.playState == WMPLib.WMPPlayState.wmppsPlaying)
+            {
+                mTrackPos.Maximum=(int)r.Ctlcontrols.currentItem.duration;
+                timer1.Start();
+            }
+            else if (r.playState == WMPLib.WMPPlayState.wmppsPaused)
+            {
+                timer1.Stop();
+            }
+            else if(r.playState == WMPLib.WMPPlayState.wmppsStopped)
+            {
+                timer1.Stop();
+                mTrackPos.Value = 0;
+            }
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            ActualizarDatos();
+            mTrackPos.Value = (int)r.Ctlcontrols.currentPosition;
+            mTrackVolumen.Value = r.settings.volume;
+        }
+
+        private void r_PlayStateChange(object sender, AxWMPLib._WMPOCXEvents_PlayStateChangeEvent e)
+        {
+            ActualizarDatos();
         }
     }
 }

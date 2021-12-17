@@ -1,5 +1,4 @@
 C:\Users\ProGa\source\repos\Musically\Musically\obj\Debug\Musically.csproj.AssemblyReference.cache
-C:\Users\ProGa\source\repos\Musically\Musically\obj\Debug\Musically.csproj.SuggestedBindingRedirects.cache
 C:\Users\ProGa\source\repos\Musically\Musically\obj\Debug\Interop.WMPLib.dll
 C:\Users\ProGa\source\repos\Musically\Musically\obj\Debug\AxInterop.WMPLib.dll
 C:\Users\ProGa\source\repos\Musically\Musically\obj\Debug\Musically.csproj.ResolveComReference.cache
@@ -14,3 +13,5 @@ C:\Users\ProGa\source\repos\Musically\Musically\bin\Debug\Interop.WMPLib.dll
 C:\Users\ProGa\source\repos\Musically\Musically\bin\Debug\AxInterop.WMPLib.dll
 C:\Users\ProGa\source\repos\Musically\Musically\obj\Debug\Musically.exe
 C:\Users\ProGa\source\repos\Musically\Musically\obj\Debug\Musically.pdb
+C:\Users\ProGa\source\repos\Musically\Musically\bin\Debug\MACTrackBarLib.dll
+C:\Users\ProGa\source\repos\Musically\Musically\obj\Debug\Musically.csproj.CopyComplete
