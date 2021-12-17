@@ -68,6 +68,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
@@ -101,6 +102,24 @@
       <Isolated>False</Isolated>
       <EmbedInteropTypes>True</EmbedInteropTypes>
     </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\imagenes\play.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\imagenes\Stop-Icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\imagenes\pause.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\imagenes\mas.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\imagenes\next.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\imagenes\previous.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

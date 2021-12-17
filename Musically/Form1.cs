@@ -48,7 +48,8 @@ namespace Musically
 
                 }
                 r.URL = Rutas[0];//La ruta del archivo inicial
-                listBox1.SelectedIndex = 0; //selecciona 
+                listBox1.SelectedIndex = 0; //selecciona
+                pictureBox4.Image = Properties.Resources.pause;
 
 
 
@@ -94,6 +95,28 @@ namespace Musically
         private void mTrackVolumen_ValueChanged(object sender, decimal value)
         {
             r.settings.volume = mTrackVolumen.Value;
+        }
+
+        private void pictureBox4_Click(object sender, EventArgs e)
+        {
+            switch (Play)
+            {
+                case true:
+                    r.Ctlcontrols.pause();
+                    pictureBox4.Image = Properties.Resources.play;
+                    Play = false;
+                break;
+                case false:
+                    r.Ctlcontrols.play();
+                    pictureBox4.Image = Properties.Resources.pause;
+                    Play = true;
+                    break;
+            }
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            r.Ctlcontrols.stop();
         }
     }
 }
